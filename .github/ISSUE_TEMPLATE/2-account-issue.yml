@@ -41,7 +41,7 @@ body:
       description: What is your jenkins.io account username? (Might not be the same as your GitHub username)
       placeholder: ex. hlemeur
     validations:
-      required: false
+      required: true
   - type: input
     id: email
     attributes:
@@ -49,7 +49,7 @@ body:
       description: What is your jenkins.io account email? (Might not be the same as your GitHub email)
       placeholder: ex. hlemeur@example.com
     validations:
-      required: false
+      required: true
   - type: textarea
     id: url
     attributes:
